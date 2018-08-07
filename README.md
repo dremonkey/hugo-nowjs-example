@@ -1,8 +1,12 @@
 # Hugo + Now Example
-Example of a Hugo static site being deployed with Now
+This is a simple Hugo app deployment on Now using the static build support.
+
+## How it works
+- standard Hugo app
+- Added a simple Dockerfile which builds the app and put the static content into the /public directory
+- `now.json` file created to set the type of this app as static
 
 ## Deployment
 
-To deploy your site to Now simply execute `now` from the command line.
+To deploy simply execute `now` from the command line.
 
-> NOTE: this is not necessary if you have connected Now with your Github and given it access to your repo
