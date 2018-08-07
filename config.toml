@@ -1,0 +1,15 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "angels-ladder"
+
+[Params]
+subtitle = "An example Hugo deployment using Now"
+facebook = ""
+twitter = ""
+github = "https://github.com/dremonkey"
+showsRSS = true
+profile = "/images/profile.png"
+copyright = "Written by Andre Deutmeyer"
+analytics = "UA-XXXXXXXX-X"
+shareThis = ""
